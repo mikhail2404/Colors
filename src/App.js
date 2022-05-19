@@ -5,6 +5,7 @@ class App extends Component {
   state =  {
     running: true
   }
+
    getRandomColor() {
     let letters = "0123456789ABCDEF"
     let color = '#'
@@ -23,7 +24,7 @@ class App extends Component {
       setTimeout(this.start, 500)
     }
     console.log(this.getRandomColor());
-    
+     console.log(22)
   }
 
   
